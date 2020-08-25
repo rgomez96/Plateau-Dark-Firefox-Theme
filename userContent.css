@@ -1,0 +1,75 @@
+
+/* Edit normal homepage*/
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"){
+  html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
+      background-color: #080808 !important; /*#232324*/
+}
+
+/* Search bar in the middle of the screen */
+.search-wrapper input {
+      background-color: #000000 !important; /* Bg of the search bar */
+      color: #ffffff5e !important;
+      border: none !important;
+      box-shadow: none !important;
+  border-bottom: 2px solid #ffffff26 !important;
+  border-left: 2px solid #ffffff26 !important;
+  border-radius: 10px 10px 10px 10px !important;
+  }
+  .search-wrapper .logo-and-wordmark {
+  opacity: 1.0 !important; /*Opacity of the Firefox logo*/
+}
+  
+.logo-and-wordmark .wordmark {
+  fill: #ffffff !important; /* Color of the firefox logo text*/
+}
+
+.search-wrapper input:focus {
+      color: white !important;
+  }
+.search-wrapper .search-button {
+      fill: white !important; /*ffffff5e*/
+  }
+.search-wrapper .search-button:focus,
+  .search-wrapper .search-button:hover {
+      background-color: transparent !important;
+      fill: white !important;
+  }
+
+
+
+/* Edit homepage when on private browsing*/
+@-moz-document url("about:privatebrowsing"){
+  html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
+    background-color: #080808 !important; /*#232324*/
+}
+
+/* Search bar in the middle of the screen */
+.search-wrapper input {
+    background-color: #000000 !important; /* Bg of the search bar */
+    color: #ffffff5e !important;
+    border: none !important;
+    box-shadow: none !important;
+border-bottom: 3px solid #ffffff15 !important;
+border-left: 2px solid #ffffff15 !important;
+border-radius: 10px 10px 10px 10px !important;
+}
+.search-wrapper .logo-and-wordmark {
+opacity: 1.0 !important; /*Opacity of the Firefox logo*/
+}
+
+.logo-and-wordmark .wordmark {
+fill: #ffffff !important; /*b821ec*/ /* Color of the firefox logo text*/
+}
+
+.search-wrapper input:focus {
+    color: white !important;
+}
+.search-wrapper .search-button {
+    fill: white !important; /*ffffff5e*/
+}
+.search-wrapper .search-button:focus,
+.search-wrapper .search-button:hover {
+    background-color: transparent !important;
+    fill: white !important;
+}
+}
