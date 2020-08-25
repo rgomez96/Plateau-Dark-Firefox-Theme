@@ -2,7 +2,7 @@
 
 My own CSS config for a dark firefox theme.
 
-![](/home/rafa/.config/marktext/images/2020-08-25-18-19-37-image.png)
+![](Firefox.png)
 
 
 
