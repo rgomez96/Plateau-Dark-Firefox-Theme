@@ -11,11 +11,10 @@
 #urlbar-background{
 	background-color: #080808 !important;
 	color: #ffffff !important;
-	border: none !important;
+  border: 1px solid #2b387c !important;
+	/*border: none !important;*/
 	margin: none !important;
 	padding: none !important;
-	border-bottom: 1px solid #000000 !important;
-	border-left: 1px solid #000000 !important;
 	border-radius: 10px 10px 10px 10px !important;
 }
 
@@ -107,7 +106,7 @@ Accent:     #E7E7E7 (#080808)
 .panel-subview-body {
 	color: #f5f5f5 !important;
 	background: #0a0a0a !important;
-	border: 1px solid #3f51b5 !important;
+	border: 1px solid #2b387c !important;
 	border-radius: 20px !important;
 }
 
@@ -117,7 +116,7 @@ Accent:     #E7E7E7 (#080808)
 }
 
 .panel-header {
-	border-bottom: 1px solid #3f51b5 !important;
+	border: 1px solid #3f51b5 !important;
 	background: #0a0a0a !important;
 }
 
@@ -216,3 +215,13 @@ panelmultiview .toolbaritem-combined-buttons>label {
 	border-image-slice: 0 !important;
 	/*hide panel menu separation */
 }
+
+
+/* --- history --- */
+#sidebar-box {
+  background-color: #0a0a0a !important;
+}
+
+#history-panel{
+  background-color: #0a0a0a !important;
+  }
