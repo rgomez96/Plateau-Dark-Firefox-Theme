@@ -32,6 +32,6 @@ Either of the following two methods work:
 
 #### Save the files
 
-- Create a new folder called _Chrome_.
+- Create a new folder called _chrome_.
 
 - Copy the files _userChrome.css_ and _usercontent.css_ inside that folder.
