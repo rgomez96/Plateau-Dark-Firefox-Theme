@@ -27,8 +27,8 @@
 #TabsToolbar .tabbrowser-tab .tab-stack,
 #TabsToolbar .tabbrowser-tab .tab-background,
 #TabsToolbar .tabbrowser-tab .tab-content {
-	border-top-left-radius: 10px !important;
-	border-top-right-radius: 10px !important;
+	border-top-left-radius: 7px !important;
+	border-top-right-radius: 7px !important;
 	margin-top: 1px;
 	border: none !important;
 	margin: 1px !important;
@@ -39,7 +39,7 @@
 }
 
 .tab-content[selected="true"] {
-	background: #000000 !important;
+	background: #030303 !important;
 }
 
 .tab-content[selected="false"] {
@@ -67,18 +67,6 @@
 .searchbar-textbox{
     border-color: #000000 !important;
     border-width: 2px !important;
-}
-
-menupopup {
-    background-color: #000000 !important;
-}
-
-menuitem > .menu-text, menuitem > .menu-iconic-text {
-    color: white !important;
-}
-
-menuitem, menu {
-    color: white !important;
 }
 
 /*----------------------hamburger menu-----------------------------*/

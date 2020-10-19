@@ -1,8 +1,12 @@
 
 /* Edit normal homepage*/
-@-moz-document url("about:home"),url("about:blank"),url("about:newtab"){
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:preferences"),url("about:config"){
   html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
       background-color: #080808 !important; /*#232324*/
+}
+
+.sticky-container {
+    background-color: #080808 !important;
 }
 
 /* Search bar in the middle of the screen */
