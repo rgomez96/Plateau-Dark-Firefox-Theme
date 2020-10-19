@@ -11,8 +11,8 @@
 #urlbar-background{
 	background-color: #080808 !important;
 	color: #ffffff !important;
-  border: 1px solid #2b387c !important;
-	/*border: none !important;*/
+  /*border: 1px solid #2b387c !important;*/
+	border: none !important;
 	margin: none !important;
 	padding: none !important;
 	border-radius: 10px 10px 10px 10px !important;
@@ -93,21 +93,20 @@ Accent:     #E7E7E7 (#080808)
 	fill: #0a0a0a !important;
 	background: transparent !important;
 	/*border-color: #0a0a0a !important;*/
-	border-radius: 20px !important;
 }
 
 /* Make the menu round :) */
 .panel-arrowcontent{
-  background:#ffffff !important;
-  border: 0px solid #ffffff !important;
-  border-radius:20px !important;
+  background:#0a0a0a !important;
+  border: 0px solid #000000 !important;
+  border-radius:10px !important;
 }
 
 .panel-subview-body {
 	color: #f5f5f5 !important;
 	background: #0a0a0a !important;
-	border: 1px solid #2b387c !important;
-	border-radius: 20px !important;
+	border: 1px solid #0a0a0a !important;
+	border-radius: 10px !important;
 }
 
 .subviewbutton.panel-subview-footer {
