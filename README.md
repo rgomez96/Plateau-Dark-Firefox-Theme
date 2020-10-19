@@ -1,6 +1,6 @@
 # Plateau-Dark-Firefox-Theme
 
-My own CSS config for a dark firefox theme, slightly based on plata.[slightly based on plata](https://gitlab.com/tista500/plata-theme). Thought i could share it :)
+My own CSS config for a dark firefox theme, [slightly based on plata GTK](https://gitlab.com/tista500/plata-theme). Thought i could share it :)
 
 ![](Pictures/Firefox1.png)
 
