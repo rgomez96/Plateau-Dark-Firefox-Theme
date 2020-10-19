@@ -1,10 +1,14 @@
 # Custom-Firefox-Dark-Theme
 
-My own CSS config for a dark firefox theme.
+My own CSS config for a dark firefox theme, slightly based on plata.
 
-![](Firefox.png)
+![](Pictures/Firefox1.png)
 
+![](Pictures/Firefox2.png)
 
+![](Pictures/Firefox3.png)
+
+![](Pictures/Firefox4.png)
 
 ## How to install
 
