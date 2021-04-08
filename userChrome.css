@@ -31,10 +31,10 @@
 }
 
 .tab-background{
-    border-top-left-radius: 12px !important;
-    border-top-right-radius: 12px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
 }
-.tab-line[selected="true"] {
+.tab-line{
     display: none !important;
     /*background-color: #3f51b5 !important;*/
 }
