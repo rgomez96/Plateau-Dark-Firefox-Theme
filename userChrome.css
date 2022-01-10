@@ -18,24 +18,12 @@
 }
 
 
-scrollbox{
-    background-color:#080808 !important;
-}
-
-.titlebar-spacer {
-    background-color:#080808 !important;
-}
-
-.titlebar-buttonbox-container {
-    background-color:#080808 !important;
-}
-
-
-
 
 #TabsToolbar .tabbrowser-tab,
 #TabsToolbar .tabbrowser-tab .tab-stack,
 #TabsToolbar .tabbrowser-tab{
+	border-top-left-radius: 10px !important;
+	border-top-right-radius: 10px !important;
 	margin-top: 1px !important;
 	border: none !important;
 	margin: 0px !important;
@@ -43,7 +31,8 @@ scrollbox{
 }
 
 .tab-background{
-    border-radius:5px !important;
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
 }
 .tab-line{
     display: none !important;
@@ -99,12 +88,8 @@ Accent:     #E7E7E7 (#080808)
 /* Make the menu round :) */
 .panel-arrowcontent{
   background:#1d1d1d !important;
-  border: 1px solid #3f51b5 !important;
+  border: 0px solid #000000 !important;
   border-radius: 5px !important;
-}
-
-.panel-viewstack {
-    background-color: #0a0a0a !important;
 }
 
 .panel-subview-body {
@@ -138,7 +123,7 @@ Accent:     #E7E7E7 (#080808)
 
 .subviewbutton.panel-subview-footer {
 	background-color: #1d1d1d !important;
-	border-top: 0px solid #f5f5f5 !important;
+	border-top: 1px solid #f5f5f5 !important;
 	border-radius:20px !important;
 }
 

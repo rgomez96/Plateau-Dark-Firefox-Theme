@@ -12,6 +12,11 @@ My own CSS config for a dark firefox theme, [slightly based on plata GTK](https:
 
 ## How to install
 
+#### Set the default firefox dark theme as current theme
+Firefox won't accept the dark colors from this theme unless we are using its dark theme.
+
+![](Pictures/Firefox5.png)
+
 #### Enable userChrome customization in about:config
 
 - Navigate to about:config in the address bar and accept the risks.
@@ -27,12 +32,6 @@ Either of the following two methods work:
   - Click on ☰ ➝ Help ➝ Troubleshooting Information or navigate to about:support in your address bar
   
   - Under Application Basics, click on the the Open Folder button. You should now see your profile folder.
-
-- Using the Firefox command line
-  
-  - Press Shift+F2
-  
-  - Enter the command folder openprofile
 
 #### Save the files
 
